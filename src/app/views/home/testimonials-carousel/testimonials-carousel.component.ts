@@ -10,38 +10,23 @@ export class TestimonialsCarouselComponent implements OnInit {
   @Input('backgroundGray') public backgroundGray;
   public carouselOptions: NguCarousel;
   public testimonials = [{
-    logo: 'http://via.placeholder.com/54x40',
+    logo: 'assets/images/mock-logo-4.png',
     photo: 'http://via.placeholder.com/48x48',
-
     text: `“The Peach Cobbler was AMAZING!”`,
     title: 'Tanya Turner Nelson',
-    subtitle: '',
-  },{
-    text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
-    atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
-    title: 'Jhone Doe',
-    subtitle: 'CEO'
+    subtitle: ''
   }, {
-    logo: 'http://via.placeholder.com/54x40',
+    logo: 'assets/images/mock-logo-2.png',
     photo: 'http://via.placeholder.com/48x48',
-    text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
-    atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
-    title: 'Adam Smith',
-    subtitle: 'CEO'
+    text: `"Thank you for your great service and even better food. My family enjoyed our fried catfish and perch dinners. That cheescake was awesome. We will be back!"`,
+    title: 'Lequita Neely',
+    subtitle: ''
   }, {
-    logo: 'http://via.placeholder.com/54x40',
+    logo: 'assets/images/mock-logo-3.png',
     photo: 'http://via.placeholder.com/48x48',
-    text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
-    atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
-    title: 'Jhone White',
-    subtitle: 'CEO'
-  }, {
-    logo: 'http://via.placeholder.com/54x40',
-    photo: 'http://via.placeholder.com/48x48',
-    text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
-    atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
-    title: 'Jessica Hiche',
-    subtitle: 'CEO'
+    text: `"Professional catering of food that's deliciously prepared and beautifully presented!"`,
+    title: 'Elizabeth Rhinehart Baker',
+    subtitle: ''
   }]
   constructor() { }
 

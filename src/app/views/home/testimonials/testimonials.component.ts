@@ -18,15 +18,13 @@ export class TestimonialsComponent implements OnInit {
   }, {
     logo: 'assets/images/mock-logo-2.png',
     photo: 'http://via.placeholder.com/48x48',
-    text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
-    atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
-    title: 'Adam Smith',
-    subtitle: 'CEO'
+    text: `"Thank you for your great service and even better food. My family enjoyed our fried catfish and perch dinners. That cheescake was awesome. We will be back!"`,
+    title: 'Lequita Neely',
+    subtitle: ''
   }, {
     logo: 'assets/images/mock-logo-3.png',
     photo: 'http://via.placeholder.com/48x48',
-    text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
-    atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
+    text: `"Professional catering of food that's deliciously prepared and beautifully presented!"`,
     title: 'Jhone White',
     subtitle: 'Software Engineer'
   }]
